@@ -11,10 +11,14 @@ Analysis and Presentation: The project extracts valuable insights from the Formu
 Dominant Driver and Team Extraction: Through meticulous analysis, the project identifies the dominant driver and team based on predefined criteria, providing a clear overview of Formula1 performance.
 
 Project Structure:
-data/: Contains sample Formula1 datasets in different formats.
-notebooks/:Includes PySpark databricks scripts for data ingestion, transformation, and analysis. Databricks notebooks for detailed walkthroughs and visualizations.
+
+src/: Contains Formula1 datasets.
+
+notebooks/:Includes PySpark databricks scripts for data ingestion, transformation, and analysis. 
+Databricks notebooks for detailed walkthroughs and visualizations.
 
 How to Use:
+
 Clone the repository: git clone [https://github.com/shivashankarkammari/Formula1db1_project.git]
 Navigate to the project directory: cd Formula1db1_project
 Run PySpark scripts: spark-submit notebooks/ingestion
